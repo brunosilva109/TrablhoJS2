@@ -5,7 +5,7 @@ const scoreDisplay = document.getElementById("score");
 
 let birdY = 250;
 let velocity = 0;
-const gravity = 0.2;
+const gravity = 0.3;
 const lift = -5;
 let isGameOver = false;
 let isGameStarted = false;
