@@ -5,8 +5,8 @@ const scoreDisplay = document.getElementById("score");
 
 let birdY = 250;
 let velocity = 0;
-const gravity = 0.5;
-const lift = -10;
+const gravity = 0.2;
+const lift = -5;
 let isGameOver = false;
 let isGameStarted = false;
 const alturaMaxima = window.innerHeight;
